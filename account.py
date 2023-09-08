@@ -10,7 +10,7 @@ class Account(object):
         self.balance += value
 
     def withdraw(self, value):
-       self.balance -= value
+        self.balance -= value
 
 if __name__ == '__main__':
   acc = Account('a',100)
